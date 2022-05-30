@@ -1,0 +1,45 @@
+1. Explain your role in your current project.
+
+I'm working on the Canada drives project for the past two/one years and I'm part of the 5 member DevOps engineering team.
+The team is geographically distributed. I'm responsible for taking care of automation on cloud infrastructure and application deployment automation. I take care of both immutable and mutable infrastructure deployments.
+
+Since my current project infra is hybrid. I'm responsible for taking care of deployments in both cloud and on-premises as well. I have taken care of implementing Continuous integration and deployment pipeline for different project stacks such as Java string boot and Vaadin framework, Python core and Django frameworks, NodeJs, and PHP.
+
+We use Jenkins, ArgoCD, and Azure DevOps for most of the CICD automation here, So all the pipelines I create will be running on top of Jenkins or Azure DevOps.
+
+I have created a Continuous integration pipeline that takes care of building, archiving, running static code analysis, and unit test testing. We use Sonarqube for static code analysis and quality gates.
+
+I have created a deployment pipeline for different tier models and mixed application stacks as well.
+Most of the deployment pipeline I worked on this project is for immutable infrastructure using docker and the deployment happens in the Kubernetes cluster and AWS Elastic container service. I use helm charts to package the K8s Applications.
+
+In addition to that, I've been taking care of Infrastructure as a code project. Most of the project That I create is fully manageable by terraform automation. 70% of our entire infrastructure is created and managed by terraform on multiple AWS accounts.
+
+I have also worked on a different monitoring system for setting up alerts for the L1 team, Which includes Nagios, cloud watch, Prometheus, DataDog, and newrelic.
+
+And for application setup, I have also taken care of database deployments and administration such as creating an HA cluster on SQL and No-SQL-based DB engines like PostgresSQL, MongoDB, DynamoDB, Microsoft SQL, and MySQL. Most of the time I have deployed databases on RDS with HA using terraform automation.
+
+In addition to that, I have been using Ansible, Python, PowerShell, and bash for scripting a lot in my current project to achieve day task automation. such as checking backup jobs, validating pipeline errors and failure rates, and many more.
+
+2. What is DevOps?
+
+DevOps is not a tool or technology or language, It is a mindset or culture followed between different teams to streamline the SDLC process.
+DevOps helps us to achieve Increased deployment frequency, the lower failure rate of new releases, shortened lead time between fixes
+Faster mean time to recovery in the event of new release crashing. DevOps also helps in achieving seamless software delivery. You can give examples of companies like Netflix, Google, and Amazon which have adopted DevOps to achieve levels of performance that were unthinkable even five years ago. They are doing tens, hundreds, or even thousands of code deployments per day while delivering world-class stability, reliability, and security.
+
+3. day to day activities
+
+1.	Scrum Calls
+2.	Monitoring
+3.	Design meetings
+4.	Automation tasks
+5.	working on p1 and p0 issues
+6.	On-call
+7.	working on implementation/Admin tasks.
+
+
+4. What is your greatest accomplishment?
+
+when I started my current project they were using ansible and python scripts to do infrastructure as a code, I changed it completely to terraform. Most of the deployments jobs were freestyle based later in I took the initiative of converting them to pipeline-based jobs with Bluegreen and canary deployments.. After introducing terraform all passive disaster recovery setups have been moved to IAC for cost-cutting.
+
+Introduced helm charts for Kubernetes deployments on Jenkins pipelines. Moved 300 + machines and 30 + projects to AWS from on-prem and also containerized those applications before moving to AWS.
+
